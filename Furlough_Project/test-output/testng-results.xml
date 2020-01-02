@@ -1,25 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="37278" started-at="2019-12-31T15:13:31 IST" finished-at="2019-12-31T15:14:08 IST">
+  <suite name="Suite1" duration-ms="133510" started-at="2020-01-02T16:12:16 IST" finished-at="2020-01-02T16:14:30 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="37278" started-at="2019-12-31T15:13:31 IST" finished-at="2019-12-31T15:14:08 IST">
+    <test name="all-tests" duration-ms="133510" started-at="2020-01-02T16:12:16 IST" finished-at="2020-01-02T16:14:30 IST">
       <class name="com.ibm.automation.testing.SpiceJet">
-        <test-method status="PASS" signature="Launch()[pri:0, instance:com.ibm.automation.testing.SpiceJet@6737fd8f]" name="Launch" is-config="true" duration-ms="15700" started-at="2019-12-31T15:13:31 IST" finished-at="2019-12-31T15:13:47 IST">
+        <test-method status="PASS" signature="Launch()[pri:0, instance:com.ibm.automation.testing.SpiceJet@76707e36]" name="Launch" is-config="true" duration-ms="11664" started-at="2020-01-02T16:13:55 IST" finished-at="2020-01-02T16:14:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Launch -->
-        <test-method status="PASS" signature="selectCity()[pri:0, instance:com.ibm.automation.testing.SpiceJet@6737fd8f]" name="selectCity" duration-ms="18934" started-at="2019-12-31T15:13:47 IST" finished-at="2019-12-31T15:14:06 IST">
+        <test-method status="PASS" signature="selectCity()[pri:0, instance:com.ibm.automation.testing.SpiceJet@76707e36]" name="selectCity" duration-ms="20831" started-at="2020-01-02T16:14:07 IST" finished-at="2020-01-02T16:14:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectCity -->
-        <test-method status="PASS" signature="Close()[pri:0, instance:com.ibm.automation.testing.SpiceJet@6737fd8f]" name="Close" is-config="true" duration-ms="2588" started-at="2019-12-31T15:14:06 IST" finished-at="2019-12-31T15:14:08 IST">
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.ibm.automation.testing.SpiceJet@76707e36]" name="Close" is-config="true" duration-ms="2164" started-at="2020-01-02T16:14:28 IST" finished-at="2020-01-02T16:14:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
       </class> <!-- com.ibm.automation.testing.SpiceJet -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.ibm.automation.testing.Magento">
+        <test-method status="PASS" signature="bm()[pri:0, instance:com.ibm.automation.testing.Magento@1e6d1014]" name="bm" is-config="true" duration-ms="19254" started-at="2020-01-02T16:12:16 IST" finished-at="2020-01-02T16:12:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="register()[pri:0, instance:com.ibm.automation.testing.Magento@1e6d1014]" name="register" duration-ms="10846" started-at="2020-01-02T16:12:36 IST" finished-at="2020-01-02T16:12:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="am()[pri:0, instance:com.ibm.automation.testing.Magento@1e6d1014]" name="am" is-config="true" duration-ms="2099" started-at="2020-01-02T16:12:46 IST" finished-at="2020-01-02T16:12:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="bm()[pri:0, instance:com.ibm.automation.testing.Magento@1e6d1014]" name="bm" is-config="true" duration-ms="14154" started-at="2020-01-02T16:12:48 IST" finished-at="2020-01-02T16:13:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="negativeLogin()[pri:0, instance:com.ibm.automation.testing.Magento@1e6d1014]" name="negativeLogin" duration-ms="17424" started-at="2020-01-02T16:13:03 IST" finished-at="2020-01-02T16:13:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogin -->
+        <test-method status="PASS" signature="am()[pri:0, instance:com.ibm.automation.testing.Magento@1e6d1014]" name="am" is-config="true" duration-ms="2208" started-at="2020-01-02T16:13:20 IST" finished-at="2020-01-02T16:13:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+        <test-method status="PASS" signature="bm()[pri:0, instance:com.ibm.automation.testing.Magento@1e6d1014]" name="bm" is-config="true" duration-ms="14193" started-at="2020-01-02T16:13:22 IST" finished-at="2020-01-02T16:13:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="positiveLogin()[pri:0, instance:com.ibm.automation.testing.Magento@1e6d1014]" name="positiveLogin" duration-ms="15984" started-at="2020-01-02T16:13:36 IST" depends-on-methods="com.ibm.automation.testing.Magento.register" finished-at="2020-01-02T16:13:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLogin -->
+        <test-method status="PASS" signature="am()[pri:0, instance:com.ibm.automation.testing.Magento@1e6d1014]" name="am" is-config="true" duration-ms="2600" started-at="2020-01-02T16:13:52 IST" finished-at="2020-01-02T16:13:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- am -->
+      </class> <!-- com.ibm.automation.testing.Magento -->
+    </test> <!-- all-tests -->
+  </suite> <!-- Suite1 -->
 </testng-results>
