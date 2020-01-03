@@ -39,10 +39,10 @@ public class SpiceJet {
 		driver.findElement(By.id("ctl00_mainContent_ddl_originStation1_CTXT")).sendKeys("PNQ");
 		driver.findElement(By.linkText("Delhi (DEL)")).click();
 		Thread.sleep(1000);
-		driver.findElement(By.xpath("//td[@data-month='0']/a[text()='3']")).click();
+		driver.findElement(By.xpath("//td[@data-month='0']/a[text()='17']")).click();
 		Thread.sleep(1000);
 		driver.findElement(By.xpath("//div[@id='Div1']/button")).click();
-		driver.findElement(By.xpath("//td[@data-month='0']/a[text()='10']")).click();
+		driver.findElement(By.xpath("//td[@data-month='0']/a[text()='25']")).click();
 		Thread.sleep(1000);
 		driver.findElement(By.id("divpaxinfo")).click();
 		Select adult=new Select(driver.findElement(By.id("ctl00_mainContent_ddl_Adult")));
