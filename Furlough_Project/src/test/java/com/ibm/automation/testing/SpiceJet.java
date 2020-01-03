@@ -16,6 +16,7 @@ public class SpiceJet {
 	@BeforeMethod
 	public void Launch()
 	{
+		System.setProperty("webdriver.gecko.driver", "C:\\Training_Selenium\\Drivers\\geckodriver.exe");
 		driver=new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
