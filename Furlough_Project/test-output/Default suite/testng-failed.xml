@@ -3,13 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ibm.automation.testing.SpiceJet">
+      <class name="com.ibm.automation.testing.Magento">
         <methods>
-          <include name="selectCity"/>
-          <include name="Launch"/>
-          <include name="Close"/>
+          <include name="bm"/>
+          <include name="positiveLogin"/>
+          <include name="register"/>
+          <include name="am"/>
+          <include name="negativeLogin"/>
         </methods>
-      </class> <!-- com.ibm.automation.testing.SpiceJet -->
+      </class> <!-- com.ibm.automation.testing.Magento -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
