@@ -1,5 +1,7 @@
 package com.ibm.automation.testing;
 
+import static org.testng.Assert.assertEquals;
+
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -53,6 +55,7 @@ public class Magento {
 		driver.findElement(By.id("email")).sendKeys("ptelharkar@gmail.com");
 		driver.findElement(By.id("pass")).sendKeys("Welcome@123");
 		driver.findElement(By.id("send2")).click();
+		Assert.assertEquals(driver.findElement(By.linkText("Log Out")).getText(), "Log Out");
 		driver.findElement(By.linkText("Log Out")).click();
 	}
 
