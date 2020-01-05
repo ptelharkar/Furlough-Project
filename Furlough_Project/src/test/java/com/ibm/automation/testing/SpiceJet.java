@@ -33,7 +33,7 @@ public class SpiceJet {
 		
 	}
 	@Test
-	public void selectCity() throws InterruptedException
+	public void flightSearch() throws InterruptedException
 	{
 		
 		driver.findElement(By.id("ctl00_mainContent_rbtnl_Trip_1")).click();
